@@ -26,11 +26,20 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
 					foreground: 'hsl(var(--secondary-foreground))'
+				},
+				cute: {
+					DEFAULT: 'hsl(var(--cute))',
+					foreground: 'hsl(var(--cute-foreground))'
+				},
+				playful: {
+					DEFAULT: 'hsl(var(--playful))',
+					foreground: 'hsl(var(--playful-foreground))'
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
